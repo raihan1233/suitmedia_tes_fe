@@ -1,0 +1,23 @@
+#basic-nav-dropdown::after {
+    display: none;
+}
+
+.text-carousel {
+    top: 32rem;
+    width: 45%;
+    height: 16%;
+    text-align: left;
+    padding: 1.2rem 2.4rem;
+    background: rgba(120, 120, 120, .7);
+    position: absolute;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: rgba(120, 120, 120, .4);
+}
+
+.navbar-nav .nav-link .dropdown-menu .dropdown-item:hover {
+    color: #000;
+    background-color: #fff;
+}
